@@ -1,0 +1,8 @@
+SUBDESIGN 'prac2'
+(
+A, B, C, D : INPUT;
+Y : OUTPUT;
+)
+BEGIN
+Y = C AND D AND (A OR B) or A AND B AND (C OR D);
+END;
